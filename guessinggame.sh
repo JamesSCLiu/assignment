@@ -1,6 +1,3 @@
-# This program allow user to guess the number of files in the current directory
-# Reponse will be "Too high.", "Too low." or "Congratulation!"
-
 no_file=$(ls | wc -l)
 echo "Guess how many files in the current directory: "
 read input
